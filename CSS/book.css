@@ -30,7 +30,7 @@ text-align: center;
 
 img{
 
-   width: 375px;
+   width: 100%;
    padding-top: 60px;
 
 }
@@ -45,8 +45,9 @@ img{
 
 
 .booking .heading-title{
-padding-top: 20px;
+padding-top: 10px;
 padding-left: 80px;
+padding-bottom: 10px;
 font-size: 30px;
 
 
@@ -71,6 +72,7 @@ width: 300px;
 height: 40px;
 border-radius: 20px 20px 20px 20px;
 padding: 10px;
+border: 3px solid orange;
 
 }
 
@@ -81,6 +83,7 @@ width: 300px;
 height: 40px;
 border-radius: 20px 20px 20px 20px;
 padding: 10px;
+border: 3px solid orange;
 
 }
 
@@ -89,17 +92,11 @@ padding: 10px;
 
 width: 100px;
 height: 50px;
-border-radius: 10px 10px 10px 10px solid yellow;
 padding: 10px;
 
 }
  
 
-.modal{
-
-   text-align: center;
-
-}
 
 
 
@@ -129,19 +126,67 @@ padding: 10px;
  
     }
 
-.book-form{
 
-text-align: center;
+img{
 
-
+height: 500px;
+padding-top: 70px;
 
 }
 
 
+.booking .heading-title{
+   
+   text-align: center;
+   font-size: 50px;
+   
+}   
 
 
+.book-form{
+
+display: block;
+padding-left: 50px;
+
+   }
+
+   .book-form h4{
+
+font-size: 40px;
+
+   }
+
+     .inputbox input{
 
 
+      width: 500px;
+      height: 70px;
+      font-size: 35px;
+      border: 3px solid orange;
+      
+      
+      }
+      
+       #select{
+      
+         width: 500px;
+         height: 70px;
+         font-size: 35px;
+         border: 3px solid orange;
+      
+      }
+
+   .btn{
+
+         width: 200px;
+         height: 70px;
+         padding: 10px;
+         }
+
+     .btn h4{
+
+   font-size: 40px;
+}
 
 
 
@@ -179,7 +224,72 @@ text-align: center;
  }
 
 
+ img{
 
+   height: 500px;
+   padding-top: 95px;
+   
+   }
+   
+   
+   .booking .heading-title{
+      
+      text-align: center;
+      font-size: 50px;
+      
+   }   
+   
+   
+   .book-form{
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+padding: 20px;
+   padding-left: 40px;
+
+   
+      }
+   
+      .book-form h4{
+   
+   font-size: 30px;
+   
+      }
+   
+        .inputbox input{
+   
+   
+         width: 400px;
+         height: 50px;
+         font-size: 25px;
+         border: 3px solid orange;
+         
+         
+         }
+         
+          #select{
+         
+            width: 700px;
+            height: 60px;
+            font-size: 25px;
+            border: 3px solid orange;
+         
+         }
+   
+      .btn{
+   
+            width: 150px;
+            height: 60px;
+            padding: 10px;
+            }
+   
+        .btn h4{
+   
+      font-size: 30px;
+   }
+   
+   
 
 
 

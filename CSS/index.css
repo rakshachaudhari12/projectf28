@@ -24,16 +24,20 @@ text-align: center;
 
 
 
-
-
-
-
-
 /* slider section*/
+
+.carousel{
+
+padding-top: 10px;
+
+}
+
+
 
 .carousel-item a{
 color: white;
 background-color: black;
+
 
 
 }
@@ -43,6 +47,7 @@ background-color: black;
    font-size: 30px;
    
    }
+
 
 /* our services*/
 
@@ -187,6 +192,11 @@ height: 50px;
  
  @media(min-width:768px) {
 
+   .carousel{
+
+      padding-top: 20px;
+      
+      }
    
 
   
@@ -293,6 +303,13 @@ font-size: 20px;
  
 
 @media(min-width:1024px) {
+
+   .carousel{
+
+      padding-top: 40px;
+      
+      }
+
 
 
    .navbar .navbar-brand{
