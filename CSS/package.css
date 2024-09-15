@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -25,10 +26,21 @@ text-align: center;
 }
 
 
+img{
+
+   width: 100%;
+   height: 300px;
+padding-top: 60px;
+
+}
+
+
+
+
 /* package section start */
 
 .heading-title{
-padding-top: 70px;
+padding-top: 30px;
 font-size: 30px;
 text-align: center;
 
@@ -107,11 +119,26 @@ background-color: black;
 color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive css */
 
 @media(min-width:768px) {
 
-   
+   html,body{
+      height: 305%;
+      width: 100%;
+      }
 
   
     .navbar-nav{
@@ -127,6 +154,15 @@ color: white;
  
  
     }
+
+
+    .header-img img{
+
+      width: 100%;
+      height: 400px;
+   padding-top: 70px;
+   
+   }
 
     .packages .box-container .box{
 
@@ -189,6 +225,15 @@ padding-left: 33px;
             
             
         }
+
+
+
+
+        
+   
+   
+   
+   
         
 
 
@@ -203,6 +248,12 @@ padding-left: 33px;
 
 
 @media(min-width:1024px) {
+
+
+   html,body{
+      height: 250%;
+      width: 100%;
+      }
 
 
     .heading-title{
@@ -316,6 +367,12 @@ font-size: 40px;
          }
          
 
+         
+         
+
 
     
 }
+
+
+
