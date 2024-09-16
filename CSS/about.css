@@ -15,11 +15,8 @@ text-transform: capitalize;
 }
   
 
+
 /* navigantion bar section*/
-
-
-
-
 .navbar-nav{
 
    font-size: 20px;
@@ -27,6 +24,7 @@ text-transform: capitalize;
    
    }
    
+
 
 
 /* about main body */ 
@@ -39,9 +37,6 @@ text-transform: capitalize;
 
 }
 
-
-
-
 .about{
     display: flex;
     align-items: center;
@@ -49,7 +44,6 @@ text-transform: capitalize;
     gap:10px;
     padding: 10px;
  }
- 
  
  img{
 
@@ -206,56 +200,7 @@ text-transform: capitalize;
 
 }
 
-
-.span{
-
-     text-align: center;
-
-}
-
-span{
-
-  
-    color: orange;
-    text-align: center;
-    font-size: 20px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----------------768 width--------------*/
 
  @media(min-width:768px) {
 
@@ -300,10 +245,6 @@ span{
    
    
    
-   
-   
-   
-   
    .social-media h3{
    
     
@@ -320,10 +261,7 @@ span{
       
    }
    
-   
-   
-   
-   
+
    .contact-us h3{
       
       font-size: 30px;
@@ -345,33 +283,11 @@ span{
    
    }
    
-   
-   .span{
-   
-        text-align: center;
-   
    }
-   
-   span{
-   
-     
-       color: orange;
-       text-align: center;
-       font-size: 20px;
-   
-   }
-   
-   
 
 
 
-
-
- }
-
-
-
-
+/*------------------------1024 width------------*/
 
 
  @media(min-width:1024px) {
